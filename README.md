@@ -1,15 +1,27 @@
 # Git på svenska
 
+## Om detta dokument
+
+Detta dokument bygger på github-användaren *bjorne*s
+version. *bjorkegeek* har omarbetat dokumentet enligt följande:
+
+  * Plockat bort vissa infantilismer, såsom att översätta egennamnet
+    *git* med "jävel".
+
+  * Ändrat fokus från hur vi talar *med* git, till hur vi talar *om* git.
+    I linje med detta har git- och skalalias plockats bort.      
+
+  * Något begrepp har lagts till eller ändrats.
+
 ## Introduktion
 
-Det dagliga språket för de olika kommandona i `git` (eller `jävel`) är
-på svenska ett enda stort svengelskakalas. Jag finner mig själv ofta
-sägandes _"Kan du pusha branchen?"_ eller _"Jag pullar!"_, vilket
-känns pinsamt.
+Det dagliga språket för de olika kommandona i `git` är på svenska ett
+enda stort svengelskakalas. Jag finner mig själv ofta sägandes _"Kan
+du pusha branchen?"_ eller _"Jag pullar!"_, vilket känns pinsamt.
 
 Detta dokument ämnar etablera en ren svensk jargong som kan användas
 på arbetsplatsen för att med fördel undvika pressade situationer med
-kollegor samt boskap.
+kollegor.
 
 ## Förslag
 
@@ -23,7 +35,7 @@ oss.
 | push        | pusha          | trycka        |
 | fetch       | fetcha         | hämta         |
 | branch      | brancha        | förgrena      |
-| commit      | commita        | förbinda      |
+| commit      | commita        | lämna över    |
 | rebase      | rebasa         | ympa          |
 | merge       | merga          | sammanfoga    |
 | stash       | stasha         | gömma         |
@@ -33,40 +45,21 @@ oss.
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
-| git          | git            | jävel       |
-| repository   | repo           | förvaring   |
+| repository   | repo           | förråd      |
 | branch       | branch         | gren        |
-| commit       | commit         | förbindelse |
+| commit       | commit         | överlämning |
 | pull request | pull request   | ryckbegäran |
 | stash        | stash          | gömma       |
 | tag          | tagg           | märke       |
+| master       | master         | ledar(e)    |
 
 ## Exempel
 
     - Kan du rycka grenen jag just ympade och trycka till github?
 
-    - Jag förgrenade alldeles nyss och förband ändringarna från min gömma där.
+    - Jag förgrenade alldeles nyss och lämnade över ändringarna från
+      min gömma där.
 
     - Skicka en ryckbegäran när du är färdig med sammanfogningen!
 
-    - Låt oss plocka russin från mäster-grenen.
-
-## Dagligt bruk
-
-Nedan följer en rad kommandoradskommandon för att sätta upp en svensk
-gitmiljö. Avsaknaden av svenska tecken i täcknamnen beror på en brist i git
-(överväg att förbättra mjukvaran och skicka en ryckbegäran!). Följande
-kommandon ändrar din `~/.gitconfig` och kommer att verka globalt.
-
-    git config --global alias.ryck pull
-    git config --global alias.tryck push
-    git config --global alias.gren branch
-    git config --global alias.forgrena branch
-    git config --global alias.forbinda commit
-    git config --global alias.ympa rebase
-    git config --global alias.sammanfoga merge
-    git config --global alias.gom stash
-    git config --global alias.marke tag
-    git config --global alias.mark tag
-
-    alias jävel=git
+    - Låt oss plocka russin från ledar-grenen.

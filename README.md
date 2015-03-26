@@ -70,8 +70,8 @@ oss.
 
     gitt kolla --ny funktion/braskit
     $EDITOR minfil.py
-    git lägg-till minfil.py
-    git överlämpa --meddelande 'lade till bra skit'
+    gitt lägg-till minfil.py
+    gitt överlämpa --meddelande 'lade till bra skit'
     gitt kolla mästare
     gitt ryck härkomst/mästare
     gitt ympa funktion/braskit

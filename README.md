@@ -42,6 +42,8 @@ oss.
 | tag         | tagga          | märka         |
 | cherry-pick | cherry-picka   | plocka russin |
 | amend       | amenda         | rätta till    |
+| checkout    | checka ut      | kolla         |
+| add         | adda           | lägg till     |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
@@ -63,3 +65,15 @@ oss.
     - Skicka en ryckbegäran när du är färdig med sammanfogningen!
 
     - Låt oss plocka russin från ledar-grenen.
+
+## Bash-alias
+
+    gitt kolla --ny funktion/braskit
+    $EDITOR minfil.py
+    git lägg-till minfil.py
+    git överlämpa --meddelande 'lade till bra skit'
+    gitt kolla mästare
+    gitt ryck härkomst/mästare
+    gitt ympa funktion/braskit
+    gitt tryck härkomst/mästare
+    
